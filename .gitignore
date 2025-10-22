@@ -1,10 +1,2 @@
 # קבצים ותיקיות שהמערכת יוצרת
 node_modules
-
-# קבצי לוג שהסקריפט יוצר
-processed_songs.log
-last_page.log
-
-# קבצים שהסקריפט מוריד
-*.tts
-*.mp3
