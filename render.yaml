@@ -1,0 +1,10 @@
+services:
+  - type: cron
+    name: prog-scraper
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    schedule: "0 */1 * * *"
+    startCommand: "node scrape.js"
+    buildpacks:
+      - url: https://github.com/jontewks/puppeteer-heroku-buildpack
