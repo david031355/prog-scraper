@@ -4,11 +4,10 @@ const fs = require('fs/promises');
 
 // --- הגדרות ראשוניות ---
 const BASE_URL = 'https://www.prog.co.il/threads/%D7%94%D7%A1%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%9D-%D7%95%D7%94%D7%A7%D7%9C%D7%99%D7%A4%D7%99%D7%9D-%D7%94%D7%97%D7%93%D7%A9%D7%99%D7%9D.387726/page-';
-<<<<<<< HEAD
+
 const START_PAGE = 1294; // שנה את המספר הזה לעמוד הראשון שממנו תרצה להתחיל לסרוק
-=======
-const START_PAGE = 1295; // שנה את המספר הזה לעמוד הראשון שממנו תרצה להתחיל לסרוק
->>>>>>> 330ff887ed4f8a43340339db29ff321454a4bcb1
+
+
 const PROCESSED_LOG_FILE = 'processed_songs.log';
 const LAST_PAGE_LOG_FILE = 'last_page.log';
 
