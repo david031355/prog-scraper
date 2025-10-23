@@ -4,12 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node scrape.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^24.26.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david031355/prog-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/david031355/prog-scraper/issues"
+  },
+  "homepage": "https://github.com/david031355/prog-scraper#readme"
 }
